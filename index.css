@@ -1,0 +1,77 @@
+.season_2020 {
+  width: 55%;
+  height: 500px;
+  background-color: black;
+}
+
+.photo_and_text {
+  display: flex;
+  width: 100%;
+}
+
+.man_on_photo {
+  position: relative;
+  width: 45%;
+  height: 500px;
+  background: url(Rectangle.png);
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+}
+
+.frame {
+  padding-top: 15px;
+  width: 120px;
+  padding-left: 9%;
+}
+
+.title_and_frame {
+  margin: 7% 0% 0% 37%;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.clock {
+  margin-top: 50px;
+  color: white;
+  text-align: left;
+  background-color: #191b1c;
+  height: 300px;
+  width: 200px;
+}
+
+.photo_clock {
+  padding-top: 30px;
+}
+
+.button_one {
+  margin: px 0px 0px 70px;
+  text-align: center;
+  width: 125px;
+  height: 40px;
+  border: white solid 2px;
+  background: transparent;
+  color: white;
+}
+
+.new_colection {
+  color: white;
+  font-size: 36px;
+}
+
+.all_divs {
+  position: absolute;
+  left: 30%;
+  bottom: 5%;
+}
+
+.frame_two {
+  width: 120px;
+  margin-left: 73px;
+}
