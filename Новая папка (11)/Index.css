@@ -1,31 +1,43 @@
 @font-face {
-    font-family:PostNoBillsJaffna-SemiBold ;
+    font-family: PostNoBillsJaffna-SemiBold;
     src: url(PostNoBillsJaffna-SemiBold.ttf);
 }
 @font-face {
     font-family: PT Sans;
     src: url(PTSans-Regular.ttf);
 }
-body { 
-  width: 100%; height: 100%; }
 
-.contacts_and_navbar{
+@media screen and (max-width 910px) {
+    .season_2020 {
+        display: none;
+        visibility: hidden;
+    }
+
+    .flex_box_two {
+        display: none;
+    }
+}
+
+body {
+    margin: 0px;
+}
+
+.contacts_and_navbar {
     top: 0px;
     left: 0px;
-    
+
     width: 100%;
     height: 124px;
 }
 
-.contacts_and_singin{
-    
+.contacts_and_singin {
     color: #969696;
     width: 100%;
     height: 44px;
-    background-color:  black;
+    background-color: black;
 }
 
-.contacts{
+.contacts {
     font-family: PT Sans;
     position: relative;
     height: 44px;
@@ -33,56 +45,52 @@ body {
     width: 80%;
     margin-left: 10%;
 }
-.number_phone{
+.number_phone {
     width: 350px;
     justify-content: space-around;
     display: flex;
     left: 0px;
     top: 15px;
     position: absolute;
-    
 }
-.vector_phone{
-    
+.vector_phone {
     width: 13px;
     height: 13px;
     background: url(Vector_phone.svg);
     background-size: cover;
-
 }
 
-.sing_in{
-    width:150px;
+.sing_in {
+    width: 150px;
     display: flex;
     justify-content: space-around;
     right: 0px;
     top: 15px;
     position: absolute;
- 
 }
 
-.vector_sing_in{
+.vector_sing_in {
     height: 13px;
     width: 13px;
     background: url(vector_sing_in.svg);
     background-size: cover;
 }
 
-.navbar_logo{
+.navbar_logo {
     width: 100%;
     height: 80px;
-    background-color:#0F0F0F;
+    background-color: #0f0f0f;
 }
 
-.navbar{
+.navbar {
     font-family: PT Sans;
     position: relative;
     width: 80%;
-    height:80px;
+    height: 80px;
     margin-left: 10%;
 }
 
-.logo{
+.logo {
     font-family: PostNoBillsJaffna-SemiBold;
     position: absolute;
     top: 15px;
@@ -91,7 +99,7 @@ body {
     color: white;
 }
 
-nav{
+.menu {
     height: 80px;
     justify-content: space-around;
     display: flex;
@@ -99,137 +107,134 @@ nav{
     font-size: 14px;
     position: absolute;
     right: 0px;
-    top: 0px
+    top: 0px;
 }
 
-a{  
+a {
     padding-top: 30px;
     text-align: center;
-    
+
     width: 200px;
-    
+
     text-align: center;
     text-decoration: none;
-    color:  gray
-    ;
+    color: gray;
 }
 .all_text_in_clock {
-  margin-top: 15px;
- 
+    margin-top: 15px;
 }
 
 .like {
     color: white;
-    background-color: #1F1F1F;
+    background-color: #1f1f1f;
 }
-.text_descriptions{
-  margin-top: 60px;
+.text_descriptions {
+    margin-top: 60px;
 }
-.basket{
+.basket {
     margin-right: -50px;
 }
 
-.search{
+.search {
     margin-right: -50px;
 }
 
-.descriptions{
+.descriptions {
     padding-top: 160px;
-  
+
     width: 100%;
     height: 810px;
     background: url(description_background.png);
     background-size: cover;
 }
 
-.box{
+.box {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width:320px;
-    height:320px;
+    width: 320px;
+    height: 320px;
     border: white solid 4px;
 }
-h1{
-  margin-top: 110px;
-  color:white;
-  font-size: 40px;
-  font-family: PostNoBillsJaffna-SemiBold;
+h1 {
+    margin-top: 110px;
+    color: white;
+    font-size: 40px;
+    font-family: PostNoBillsJaffna-SemiBold;
 }
-.line_in_box{
-  margin-top: -35px;
-  width: 125px;
-  
+.line_in_box {
+    margin-top: -35px;
+    width: 125px;
 }
 
-p{
-  color: white;
-  text-align: center;
+p {
+    color: white;
+    text-align: center;
 }
-.sanct_peterburg{
-  margin-top: -10px;
-  color: white;
-  font-size: 22px;
+.sanct_peterburg {
+    margin-top: -10px;
+    color: white;
+    font-size: 22px;
 }
 .season_2020 {
     width: 55%;
     height: 550px;
     background-color: black;
-  }
-  
-  .photo_and_text {
+}
+
+.photo_and_text {
     display: flex;
     width: 100%;
-  }
-  
-  .man_on_photo {
+}
+
+.man_on_photo {
     position: relative;
     width: 45%;
     height: 550px;
     background: url(Rectangle.png);
     background-size: cover;
-  }
-  
-  .title {
+}
+
+.title {
     color: white;
     font-size: 30px;
-  }
-  
-  .frame {
+}
+
+.frame {
     padding-top: 15px;
-    width: 120px;
-    padding-left: 7%;
-  }
-  
-  .title_and_frame {
-    margin: 7% 0% 0% 37%;
-  }
-  
-  .products {
+    width: 25%;
+    padding-left: 37%;
+}
+
+.title_and_frame {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.products {
     width: 100%;
     display: flex;
     justify-content: space-around;
-  }
-  
-  .background_photo_clock{
+}
+
+.background_photo_clock {
     height: 250px;
     background-color: #191b1c;
-  }
-  .clock {
+}
+.clock {
     margin-top: 50px;
     color: white;
-    text-align:left;
+    text-align: left;
     height: 400px;
     width: 200px;
-  }
-  
-  .photo_clock {
-    
+}
+
+.photo_clock {
     vertical-align: top;
     padding-top: 30px;
-  }
-  
-  .button_one {
+}
+
+.button_one {
     font-size: 20px;
     margin: 10px 0px 0px 70px;
     text-align: center;
@@ -238,61 +243,59 @@ p{
     border: white solid 2px;
     background: transparent;
     color: white;
-  }
-  
-  .new_colection {
+}
+
+.new_colection {
     color: white;
     font-size: 36px;
-  }
-  
-  .all_divs {
+}
+
+.all_divs {
     position: absolute;
     width: 40%;
     left: 30%;
     bottom: 15%;
-  }
-  
-  .frame_two {
+}
+
+.frame_two {
     width: 120px;
     margin-left: 73px;
-  }
-  
-  .Colection_2018{
-    
+}
+
+.Colection_2018 {
     text-align: center;
     color: white;
     display: flex;
     width: 100%;
-  }
-  
-  .photo_of_a_man{
-    background:url(photo_of_a_man.png);
+}
+
+.photo_of_a_man {
+    background: url(photo_of_a_man.png);
     background-size: cover;
     width: 48%;
-    height:600px ;
-  }
-  .text_about_colection{
+    height: 600px;
+}
+.text_about_colection {
     width: 52%;
     height: 600px;
     background-color: black;
-  }
+}
 
-  .most_text{
+.most_text {
     font-size: 15px;
     margin-top: 50px;
-  }
-  .line_two{
+}
+.line_two {
     width: 150px;
-  }
-   
-  
-  .title_colection{
+}
+
+.title_colection {
     margin-top: 100px;
     font-family: sans-serif;
     font-size: 30px;
-  }
+}
 
-  .button_two{
+.button_two {
     font-size: 20px;
     margin-top: 50px;
     text-align: center;
@@ -301,29 +304,85 @@ p{
     border: white solid 2px;
     background: transparent;
     color: white;
-  }
+}
 
-  .all_colection_two{
+.all_colection_two {
     color: white;
-   text-align: center;
+    text-align: center;
     background-color: black;
     width: 100%;
     height: 1289px;
-  }
+}
 
-  .new_message{
+.new_message {
     margin-top: 0px;
     padding-top: 100px;
-  }
-  .line_three{
+}
+.line_three {
     width: 100px;
-  }
+}
 
-  .flex_box_two{
+.flex_box_two {
     margin: auto;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     width: 60%;
     text-align: center;
-  }
+}
+
+.our_brandy {
+    margin-top: -150px;
+    width: 100%;
+    height: 362px;
+    background-color: #0f0f0f;
+}
+
+.title_of_brandy {
+    font-size: 36px;
+    color: white;
+    font-family: PT Sans;
+}
+.title_and_frame_about_brandy {
+    text-align: center;
+    padding-top: 5%;
+}
+footer {
+    background-color: black;
+}
+.frame_four {
+    width: 5%;
+    padding-left: 47.5%;
+    padding-top: 1.5%;
+}
+.flex_brandy {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 15%;
+}
+.down_line {
+    height: 50px;
+    color: white;
+    position: relative;
+    max-width: 70%;
+    margin-left: 15%;
+}
+.figma_project {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.date2020c {
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
+
+.background {
+    background: url(background_of_.png);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
